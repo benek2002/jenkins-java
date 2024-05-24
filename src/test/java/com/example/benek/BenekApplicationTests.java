@@ -20,7 +20,7 @@ class BenekApplicationTests {
 	public void helloTest() throws Exception {
 		mockMvc.perform(MockMvcRequestBuilders.get("/"))
 				.andExpect(status().isOk())
-				.andExpect(content().string("Hello User!"));
+				.andExpect(content().string("Hello Kubernates User!"));
 	}
 
 	@Test
