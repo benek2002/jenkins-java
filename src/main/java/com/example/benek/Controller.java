@@ -8,7 +8,7 @@ public class Controller {
     @GetMapping
     @CrossOrigin
     public String hello(){
-        return "Hello User!";
+        return "Hello Kubernates User!";
     }
     @GetMapping("/substraction/{a}/{b}")
     @CrossOrigin
